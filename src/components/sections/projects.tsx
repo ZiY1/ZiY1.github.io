@@ -63,11 +63,11 @@ export const Projects = ({ featured }: ProjectsSectionProps) => {
                                             </>
                                         )}
                                         </CardTitle>
-                                        {project.note && (
+                                        {/* {project.note && (
                                             <Badge variant="secondary" className="rounded-full">
                                                 {project.note}
                                             </Badge>
-                                        )}
+                                        )} */}
                                     </CardHeader>
                                     <CardContent>
                                         <CardDescription>{project.description}</CardDescription>
