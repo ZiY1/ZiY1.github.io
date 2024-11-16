@@ -1,7 +1,7 @@
 import { Layout } from '@/components/layout'
 import { About } from '@/components/sections/about'
 // import { Contact } from '@/components/sections/contact'
-// import { Projects } from '@/components/sections/projects'
+import { Projects } from '@/components/sections/projects'
 import { Typography } from '@/components/typography'
 import { Button } from '@/components/ui/button'
 import Image from 'next/image'
@@ -49,7 +49,7 @@ const HomePage = () => {
                 />
             </section>
             <About />
-            {/* <Projects featured /> */}
+            <Projects featured />
             {/* <Contact /> */}
         </Layout>
     )
