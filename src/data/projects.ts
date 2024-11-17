@@ -33,7 +33,7 @@ export const projects = [
             text: 'Autism Bridge',
             link: 'https://www.youtube.com/watch?v=aEtxebdYNaQ',
         },
-        description: 'An mobile app to prepare individuals with autism spectrum disorder for employment by providing resume building and job application process buildt with Flutter and Firebase.',
+        description: 'An mobile app to prepare individuals with autism spectrum disorder for employment by providing resume building and job application process built with Flutter and Firebase.',
         image: '/images/projects/autismbridge.gif',
         status: {
             text: 'View Source',
@@ -48,7 +48,7 @@ export const projects = [
             text: 'Virtual Reality Interview',
             link: 'https://www.youtube.com/watch?v=aEtxebdYNaQ',
         },
-        description: 'An Virtual Reality Interview Training Program to prepare individuals with autism spectrum disorder for job interviews buildt with Unity 3D and C#.',
+        description: 'An Virtual Reality Interview Training Program to prepare individuals with autism spectrum disorder for job interviews built with Unity 3D and C#.',
         image: '/images/projects/vrinterview.gif',
         status: {
             text: 'View Source',

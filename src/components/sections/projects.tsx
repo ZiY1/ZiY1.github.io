@@ -1,7 +1,6 @@
 import { Typography } from '@/components/typography'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
 import { projects } from '@/data'
 import Image from 'next/image'
 import NextLink from 'next/link'
@@ -15,22 +14,13 @@ export const Projects = ({ featured }: ProjectsSectionProps) => {
         <section className="flex flex-col space-y-8 py-4">
             <div className="flex items-center justify-between border-b pb-4">
                 <Typography variant="h1">🚀 {featured && 'Featured '}Projects</Typography>
-                <TooltipProvider>
-                    <Tooltip>
-                        <TooltipTrigger>View on GitHub</TooltipTrigger>
-                        <TooltipContent aria-label="View on GitHub">
-                            <NextLink
-                                href="https://github.com/BadEnd777"
-                                className="flex items-center space-x-2"
-                                target="_blank"
-                                aria-label="View on GitHub"
-                            >
-                                <p className="hidden text-sm md:block">View on GitHub</p>
-                                <span className="icon-[tabler--arrow-right] size-6" />
-                            </NextLink>
-                        </TooltipContent>
-                    </Tooltip>
-                </TooltipProvider>
+                <NextLink
+                    href="https://github.com/ZiY1"
+                    target="_blank"
+                    className="flex items-center space-x-2 hover:underline"
+                >
+                    <p className="hidden text-sm md:block">View on GitHub</p>
+                </NextLink>
             </div>
             <h2 className="text-lg text-muted-foreground">
                 Here are some of the projects I&apos;ve worked on. You can find more on my GitHub profile.

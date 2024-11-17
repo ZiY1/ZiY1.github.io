@@ -1,6 +1,6 @@
 import { Layout } from '@/components/layout'
 import { About } from '@/components/sections/about'
-// import { Contact } from '@/components/sections/contact'
+import { Contact } from '@/components/sections/contact'
 import { Projects } from '@/components/sections/projects'
 import { Typography } from '@/components/typography'
 import { Button } from '@/components/ui/button'
@@ -48,9 +48,11 @@ const HomePage = () => {
                     priority
                 />
             </section>
-            <About />
+            <section id="about">
+                <About />
+            </section>
             <Projects featured />
-            {/* <Contact /> */}
+            <Contact />
         </Layout>
     )
 }
