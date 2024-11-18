@@ -13,7 +13,7 @@ export const Contact = () => {
                     Feel free to reach out regarding job opportunities, collaborations, projects, or anything else 😃! 
                 </p>
                 <div className="flex flex-col items-center space-y-4">
-                    <div className="flex space-x-4">
+                    <div className="flex flex-wrap justify-center gap-4">
                         {contact.map((item) => (
                             item.link ? (
                                 <a
