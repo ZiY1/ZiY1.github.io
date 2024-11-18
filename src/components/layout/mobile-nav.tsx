@@ -29,11 +29,7 @@ export const MobileNav = () => {
                     ))}
                     <DropdownMenuSeparator />
                     <DropdownMenuItem>
-                        <NextLink
-                            href="https://github.com/ZiY1"
-                            target="_blank"
-                            aria-label="GitHub repository"
-                        >
+                        <NextLink href="https://github.com/ZiY1" target="_blank" aria-label="GitHub repository">
                             View on GitHub
                         </NextLink>
                     </DropdownMenuItem>

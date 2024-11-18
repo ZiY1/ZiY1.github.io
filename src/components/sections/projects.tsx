@@ -1,5 +1,4 @@
 import { Typography } from '@/components/typography'
-import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { projects } from '@/data'
 import Image from 'next/image'
@@ -39,19 +38,19 @@ export const Projects = ({ featured }: ProjectsSectionProps) => {
                                 <div className={project.isFullWidth ? 'basis-1/2' : ''}>
                                     <CardHeader className="flex flex-row items-center justify-between">
                                         <CardTitle>
-                                        {project.title.link ? (
-                                            <NextLink
-                                                href={project.title.link}
-                                                target="_blank"
-                                                className="flex items-center space-x-2 hover:underline"
-                                            >
-                                                <p>{project.title.text}</p>
-                                            </NextLink>
-                                        ) : (
-                                            <>
-                                                 <p>{project.title.text}</p>
-                                            </>
-                                        )}
+                                            {project.title.link ? (
+                                                <NextLink
+                                                    href={project.title.link}
+                                                    target="_blank"
+                                                    className="flex items-center space-x-2 hover:underline"
+                                                >
+                                                    <p>{project.title.text}</p>
+                                                </NextLink>
+                                            ) : (
+                                                <>
+                                                    <p>{project.title.text}</p>
+                                                </>
+                                            )}
                                         </CardTitle>
                                         {/* {project.note && (
                                             <Badge variant="secondary" className="rounded-full">

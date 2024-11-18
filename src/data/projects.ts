@@ -18,7 +18,8 @@ export const projects = [
             text: 'NexEvent',
             link: 'http://ec2-18-189-189-52.us-east-2.compute.amazonaws.com/Jupiter/#',
         },
-        description: 'A full-stack web service with to improve the event searching and recommendation experience for users built with Apache Tomcat, Java Servlets, RESTful APIs, MySQL and MongoDB, deployed on AWS EC2.',
+        description:
+            'A full-stack web service with to improve the event searching and recommendation experience for users built with Apache Tomcat, Java Servlets, RESTful APIs, MySQL and MongoDB, deployed on AWS EC2.',
         image: '/images/projects/nexevent.webp',
         status: {
             text: 'View Source',
@@ -33,7 +34,8 @@ export const projects = [
             text: 'Autism Bridge',
             link: 'https://www.youtube.com/watch?v=aEtxebdYNaQ',
         },
-        description: 'An mobile app to prepare individuals with autism spectrum disorder for employment by providing resume building and job application process built with Flutter and Firebase.',
+        description:
+            'An mobile app to prepare individuals with autism spectrum disorder for employment by providing resume building and job application process built with Flutter and Firebase.',
         image: '/images/projects/autismbridge.gif',
         status: {
             text: 'View Source',
@@ -48,7 +50,8 @@ export const projects = [
             text: 'Virtual Reality Interview',
             link: 'https://www.youtube.com/watch?v=aEtxebdYNaQ',
         },
-        description: 'An Virtual Reality Interview Training Program to prepare individuals with autism spectrum disorder for job interviews built with Unity 3D and C#.',
+        description:
+            'An Virtual Reality Interview Training Program to prepare individuals with autism spectrum disorder for job interviews built with Unity 3D and C#.',
         image: '/images/projects/vrinterview.gif',
         status: {
             text: 'View Source',

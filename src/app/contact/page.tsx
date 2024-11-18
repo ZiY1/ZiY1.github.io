@@ -4,8 +4,7 @@ import { OPEN_GRAPH_IMAGE } from '@/config'
 import type { Metadata } from 'next'
 
 const title = "Let's Connect"
-const description =
-    'Get in touch with Ziyi Huang.'
+const description = 'Get in touch with Ziyi Huang.'
 
 export const metadata: Metadata = {
     title,

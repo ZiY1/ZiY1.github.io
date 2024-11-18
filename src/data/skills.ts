@@ -1,7 +1,8 @@
 export const skills = [
     {
         title: 'Backend Development',
-        description: 'I have experience building and maintaining backend services using modern frameworks, RESTful APIs, relational and NoSQL databases.',
+        description:
+            'I have experience building and maintaining backend services using modern frameworks, RESTful APIs, relational and NoSQL databases.',
         items: [
             { name: 'Spring Boot', icon: 'icon-[simple-icons--springboot]' },
             { name: 'Spring', icon: 'icon-[simple-icons--spring]' },
@@ -47,7 +48,8 @@ export const skills = [
     },
     {
         title: 'Startup Development',
-        description: 'I have experience building a stratup that helps job seeker with autism specturm disorder in their job search.',
+        description:
+            'I have experience building a stratup that helps job seeker with autism specturm disorder in their job search.',
         items: [
             { name: 'Flutter', icon: 'icon-[simple-icons--flutter]' },
             { name: 'Dart', icon: 'icon-[simple-icons--dart]' },
