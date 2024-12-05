@@ -16,7 +16,7 @@ export const projects = [
     {
         title: {
             text: 'NexEvent',
-            link: 'http://ec2-18-189-189-52.us-east-2.compute.amazonaws.com/Jupiter/#',
+            link: 'http://ec2-13-58-2-27.us-east-2.compute.amazonaws.com/Jupiter/#',
         },
         description:
             'A full-stack web service with to improve the event searching and recommendation experience for users built with Apache Tomcat, Java Servlets, RESTful APIs, MySQL and MongoDB, deployed on AWS EC2.',
